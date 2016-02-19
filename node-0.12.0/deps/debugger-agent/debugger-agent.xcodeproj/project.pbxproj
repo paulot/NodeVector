@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9AEF4185FCC24704CDCC36D /* agent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8DBAC45184810C229DC543D9 /* agent.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		087D2C70D0972C188C78AE37 /* config.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = config.gypi; path = ../../config.gypi; sourceTree = "<group>"; };
+		852C66E3683A468D62A7FC18 /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../common.gypi; sourceTree = "<group>"; };
+		8DBAC45184810C229DC543D9 /* agent.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = agent.cc; sourceTree = "<group>"; };
+		973F20FEAD595CC11A55E4A2 /* libdebugger-agent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libdebugger-agent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA101C17AAAB50AB7ADB5ECE /* debugger-agent.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = "debugger-agent.gyp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2498C6D626F943AD2CB8C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2E70D92068F96C6E86BD75 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				852C66E3683A468D62A7FC18 /* common.gypi */,
+				087D2C70D0972C188C78AE37 /* config.gypi */,
+				EA101C17AAAB50AB7ADB5ECE /* debugger-agent.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		369904CC8CE67C5696DC3552 = {
+			isa = PBXGroup;
+			children = (
+				DF57C1A80220B3770D0BF38B /* Source */,
+				70B0407429422F9E88A044C2 /* Products */,
+				1A2E70D92068F96C6E86BD75 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		70B0407429422F9E88A044C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973F20FEAD595CC11A55E4A2 /* libdebugger-agent.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF57C1A80220B3770D0BF38B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8DBAC45184810C229DC543D9 /* agent.cc */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A501F0BB9DEAF035822FAC /* debugger-agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3714521049920734FF080D20 /* Build configuration list for PBXNativeTarget "debugger-agent" */;
+			buildPhases = (
+				C8A93EA62B150C3B8663BB83 /* Sources */,
+				C2498C6D626F943AD2CB8C1C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "debugger-agent";
+			productName = "debugger-agent";
+			productReference = 973F20FEAD595CC11A55E4A2 /* libdebugger-agent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75DBFB21442982B40851888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 8271DBAB6650799FF44AD3A5 /* Build configuration list for PBXProject "debugger-agent" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 369904CC8CE67C5696DC3552;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A501F0BB9DEAF035822FAC /* debugger-agent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A93EA62B150C3B8663BB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AEF4185FCC24704CDCC36D /* agent.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B90FCBD9B7C8D53540A43EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+		988D54095F1A18082C2290F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+		9EB8127C15FFAAB6077BCCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "_DARWIN_USE_64_BIT_INODE=1";
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = (
+					src,
+					include,
+					../v8/include,
+					../uv/include,
+					../../src,
+					../cares/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				PREBINDING = NO;
+				PRODUCT_NAME = "debugger-agent";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		B6FE93D82564A2B2EC252E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DARWIN_USE_64_BIT_INODE=1",
+					DEBUG,
+					_DEBUG,
+				);
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = (
+					src,
+					include,
+					../v8/include,
+					../uv/include,
+					../../src,
+					../cares/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				PREBINDING = NO;
+				PRODUCT_NAME = "debugger-agent";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3714521049920734FF080D20 /* Build configuration list for PBXNativeTarget "debugger-agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FE93D82564A2B2EC252E74 /* Debug */,
+				9EB8127C15FFAAB6077BCCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		8271DBAB6650799FF44AD3A5 /* Build configuration list for PBXProject "debugger-agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988D54095F1A18082C2290F1 /* Debug */,
+				7B90FCBD9B7C8D53540A43EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75DBFB21442982B40851888 /* Project object */;
+}

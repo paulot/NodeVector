@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F60478F5839D13A5DF8314 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F576CF9CB3BC1B23B93390 /* gzclose.c */; };
+		290DE0D31D430BEF486CB072 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = F4E11CB277F44AF317C9D6E9 /* crc32.c */; };
+		366F73EF59B1390B5C0D0534 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = C76EB19FBF4B6CAFC2C26E58 /* adler32.c */; };
+		391CBD69989A0E6605822904 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FA06FC3A1F7A679B317BA7C /* compress.c */; };
+		3B2040605D4461FCFB01B576 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 62DBB77B5087DD7C94FC7955 /* uncompr.c */; };
+		45F040766C0F91489E47E256 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 71C83D732E1E866F604AE65D /* inftrees.c */; };
+		528DCE0304CE8407B3B3B044 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = F4E7107437C91DA35E0F1042 /* gzread.c */; };
+		54D6AEB0BC5799D788355054 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 34C94964E7DDAA93C807C792 /* zip.c */; };
+		5E4D258E8DC384A27603A7E5 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = E9A50757A5C666D4AE5624F9 /* trees.c */; };
+		659E1D1BE555C6EA3F8A68BA /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F94CD0312F8D1757D3C9FC7 /* zutil.c */; };
+		795C1D78950C4A6B077CC593 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = E70CD6F2AFEC4F563CE27DFD /* deflate.c */; };
+		7ED8C79B94794EDB62E1CD28 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 83C44E0C4877C7AFF2071949 /* gzwrite.c */; };
+		8828C31C32779D4BC8C1CC29 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA9D1165A9C0823C611017 /* ioapi.c */; };
+		BC6B4053F6757B9D49662A2A /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7084ABE279CA5E13052737 /* inflate.c */; };
+		CB2B57CE7642C78D76E1B0CF /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5238C0B46F5B8D634A977BD2 /* unzip.c */; };
+		CF97128E4E5F0C725CD7B7D3 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D07AF12D3B0105EBFD693 /* infback.c */; };
+		E3FF8B1BD104CEAF2F02863F /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E8DA0D551AC4C47B044866 /* gzlib.c */; };
+		F57385F0AC885B6301FE30C4 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = D0F16579490B65DFE4BE048C /* inffast.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032DE1615B93C79139FB8A4E /* inffast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		0ED141291112111135D1C884 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0ED9A06D899E13032359C032 /* zutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		0F009FE43B012A300FD51360 /* zlib.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = zlib.gyp; sourceTree = "<group>"; };
+		15204BCEE1BD73B289DAABCD /* inffixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		19E8DA0D551AC4C47B044866 /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		1F94CD0312F8D1757D3C9FC7 /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		232937A26A30063A58E8FB0A /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		28F576CF9CB3BC1B23B93390 /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		34C94964E7DDAA93C807C792 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		3CBA9D1165A9C0823C611017 /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		3F4D07AF12D3B0105EBFD693 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		3F588932729121D643EB6BEB /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		3FA06FC3A1F7A679B317BA7C /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		46A75DCB614787198F87FA5D /* crc32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		48023ACE56554A6A52970636 /* iowin32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iowin32.h; sourceTree = "<group>"; };
+		49C260B84832D73EEFD99948 /* iowin32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iowin32.c; sourceTree = "<group>"; };
+		4F89D0D57B563C9F1B5149F0 /* libchrome_zlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libchrome_zlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5238C0B46F5B8D634A977BD2 /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		623DCC5AE4EABBA3E6914AC3 /* deflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		62DBB77B5087DD7C94FC7955 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		6E7084ABE279CA5E13052737 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		71C83D732E1E866F604AE65D /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		83C44E0C4877C7AFF2071949 /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		927635BB09E2BCA5C041206B /* trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		983F2700DAA3140285A27DB3 /* config.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = config.gypi; path = ../../config.gypi; sourceTree = "<group>"; };
+		AEFB2EB7EEF08B50C790D51A /* common.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = common.gypi; path = ../../common.gypi; sourceTree = "<group>"; };
+		B6300E5A7D946ABAF855FB56 /* inflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		C0E0B6F115C02B6F661B9348 /* gzguts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		C76EB19FBF4B6CAFC2C26E58 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		D0F16579490B65DFE4BE048C /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		DF9677FE6505DA70B7A4C1B4 /* inftrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		E0B0758F5C563989B791BC36 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		E70CD6F2AFEC4F563CE27DFD /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		E9A50757A5C666D4AE5624F9 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		EED709BA35B7382B6AB08EB5 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		F4E11CB277F44AF317C9D6E9 /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		F4E7107437C91DA35E0F1042 /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216DCA8302D1DD54B6D1C0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5087E363AC3B2E39AB4943B8 = {
+			isa = PBXGroup;
+			children = (
+				578280AD752706353C499EDA /* Source */,
+				EDE730FEAB2FFD5FF906DDAD /* Products */,
+				B8A42E71CBA5D2A803835A0C /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		578280AD752706353C499EDA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9A37CD1EF31E0A551A0D3F75 /* contrib/minizip */,
+				C76EB19FBF4B6CAFC2C26E58 /* adler32.c */,
+				3FA06FC3A1F7A679B317BA7C /* compress.c */,
+				F4E11CB277F44AF317C9D6E9 /* crc32.c */,
+				46A75DCB614787198F87FA5D /* crc32.h */,
+				E70CD6F2AFEC4F563CE27DFD /* deflate.c */,
+				623DCC5AE4EABBA3E6914AC3 /* deflate.h */,
+				28F576CF9CB3BC1B23B93390 /* gzclose.c */,
+				C0E0B6F115C02B6F661B9348 /* gzguts.h */,
+				19E8DA0D551AC4C47B044866 /* gzlib.c */,
+				F4E7107437C91DA35E0F1042 /* gzread.c */,
+				83C44E0C4877C7AFF2071949 /* gzwrite.c */,
+				3F4D07AF12D3B0105EBFD693 /* infback.c */,
+				D0F16579490B65DFE4BE048C /* inffast.c */,
+				032DE1615B93C79139FB8A4E /* inffast.h */,
+				15204BCEE1BD73B289DAABCD /* inffixed.h */,
+				6E7084ABE279CA5E13052737 /* inflate.c */,
+				B6300E5A7D946ABAF855FB56 /* inflate.h */,
+				71C83D732E1E866F604AE65D /* inftrees.c */,
+				DF9677FE6505DA70B7A4C1B4 /* inftrees.h */,
+				E9A50757A5C666D4AE5624F9 /* trees.c */,
+				927635BB09E2BCA5C041206B /* trees.h */,
+				62DBB77B5087DD7C94FC7955 /* uncompr.c */,
+				E0B0758F5C563989B791BC36 /* zconf.h */,
+				EED709BA35B7382B6AB08EB5 /* zlib.h */,
+				1F94CD0312F8D1757D3C9FC7 /* zutil.c */,
+				0ED9A06D899E13032359C032 /* zutil.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		9A37CD1EF31E0A551A0D3F75 /* contrib/minizip */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA9D1165A9C0823C611017 /* ioapi.c */,
+				0ED141291112111135D1C884 /* ioapi.h */,
+				49C260B84832D73EEFD99948 /* iowin32.c */,
+				48023ACE56554A6A52970636 /* iowin32.h */,
+				5238C0B46F5B8D634A977BD2 /* unzip.c */,
+				232937A26A30063A58E8FB0A /* unzip.h */,
+				34C94964E7DDAA93C807C792 /* zip.c */,
+				3F588932729121D643EB6BEB /* zip.h */,
+			);
+			path = contrib/minizip;
+			sourceTree = "<group>";
+		};
+		B8A42E71CBA5D2A803835A0C /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB2EB7EEF08B50C790D51A /* common.gypi */,
+				983F2700DAA3140285A27DB3 /* config.gypi */,
+				0F009FE43B012A300FD51360 /* zlib.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		EDE730FEAB2FFD5FF906DDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F89D0D57B563C9F1B5149F0 /* libchrome_zlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE557433A4D2EFFDC01DBB4 /* zlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81D482CBBA2255AB8335104 /* Build configuration list for PBXNativeTarget "zlib" */;
+			buildPhases = (
+				A456D731B40DA29C0D757422 /* Sources */,
+				216DCA8302D1DD54B6D1C0CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zlib;
+			productName = chrome_zlib;
+			productReference = 4F89D0D57B563C9F1B5149F0 /* libchrome_zlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B66F94A9E063C8D3C7ED023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = ABFE510C7338BF4D880CA374 /* Build configuration list for PBXProject "zlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 5087E363AC3B2E39AB4943B8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE557433A4D2EFFDC01DBB4 /* zlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A456D731B40DA29C0D757422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8828C31C32779D4BC8C1CC29 /* ioapi.c in Sources */,
+				CB2B57CE7642C78D76E1B0CF /* unzip.c in Sources */,
+				54D6AEB0BC5799D788355054 /* zip.c in Sources */,
+				366F73EF59B1390B5C0D0534 /* adler32.c in Sources */,
+				391CBD69989A0E6605822904 /* compress.c in Sources */,
+				290DE0D31D430BEF486CB072 /* crc32.c in Sources */,
+				795C1D78950C4A6B077CC593 /* deflate.c in Sources */,
+				01F60478F5839D13A5DF8314 /* gzclose.c in Sources */,
+				E3FF8B1BD104CEAF2F02863F /* gzlib.c in Sources */,
+				528DCE0304CE8407B3B3B044 /* gzread.c in Sources */,
+				7ED8C79B94794EDB62E1CD28 /* gzwrite.c in Sources */,
+				CF97128E4E5F0C725CD7B7D3 /* infback.c in Sources */,
+				F57385F0AC885B6301FE30C4 /* inffast.c in Sources */,
+				BC6B4053F6757B9D49662A2A /* inflate.c in Sources */,
+				45F040766C0F91489E47E256 /* inftrees.c in Sources */,
+				5E4D258E8DC384A27603A7E5 /* trees.c in Sources */,
+				3B2040605D4461FCFB01B576 /* uncompr.c in Sources */,
+				659E1D1BE555C6EA3F8A68BA /* zutil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AEBC01FB39038D42AB06108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DARWIN_USE_64_BIT_INODE=1",
+					USE_FILE32API,
+				);
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./contrib/minizip,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				PREBINDING = NO;
+				PRODUCT_NAME = chrome_zlib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Release;
+		};
+		4FBC324242404B327FF7A425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DARWIN_USE_64_BIT_INODE=1",
+					USE_FILE32API,
+					DEBUG,
+					_DEBUG,
+				);
+				GCC_THREADSAFE_STATICS = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					./contrib/minizip,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-fno-strict-aliasing";
+				PREBINDING = NO;
+				PRODUCT_NAME = chrome_zlib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wendif-labels",
+					"-W",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		AA065B6E73130D9FD7CB0C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+		BC34C79BE31548161F840C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABFE510C7338BF4D880CA374 /* Build configuration list for PBXProject "zlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34C79BE31548161F840C40 /* Debug */,
+				AA065B6E73130D9FD7CB0C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		E81D482CBBA2255AB8335104 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBC324242404B327FF7A425 /* Debug */,
+				4AEBC01FB39038D42AB06108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B66F94A9E063C8D3C7ED023 /* Project object */;
+}
