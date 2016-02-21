@@ -144,3 +144,48 @@ void NodeVector::Set(const Nan::FunctionCallbackInfo<v8::Value>& args) {
   obj->values[index] = newValue;
   args.GetReturnValue().Set(Nan::New(newValue));
 }
+
+void NodeVector::Clear(const Nan::FunctionCallbackInfo<v8::Value>& args) {
+  NodeVector* obj = ObjectWrap::Unwrap<NodeVector>(args.Holder());
+  obj->values.clear();
+}
+
+void NodeVector::Erase(const Nan::FunctionCallbackInfo<v8::Value>& args) {
+  NodeVector* obj = ObjectWrap::Unwrap<NodeVector>(args.Holder());
+
+  if (args[0]->IsUndefined() or not args[0]->IsNumber()) {
+    Nan::ThrowTypeError("Expected a number as first argument.");
+    return;
+  }
+
+  int first = args[0]->NumberValue();
+
+  if (first < 0 or first > (int) obj->values.size()) {
+    Nan::ThrowError("Index out of range");
+    return;
+  }
+
+  if (args[1]->IsUndefined()) {
+    // Calling only with one argument
+    obj->values.erase(obj->values.begin() + first);
+  } else if (args[1]->IsNumber()) {
+    // Calling with 2 arguments
+    int second = args[1]->NumberValue();
+
+    if (second <= first or second > (int) obj->values.size()) {
+      Nan::ThrowError("Second index out of range");
+      return;
+    }
+
+    obj->values.erase(obj->values.begin() + first, obj->values.begin() + second);
+  }
+}
+
+
+
+
+  //static void Insert(const Nan::FunctionCallbackInfo<v8::Value>& args);
+
+
+
+

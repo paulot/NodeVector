@@ -32,6 +32,9 @@ private:
   static void Reserve(const Nan::FunctionCallbackInfo<v8::Value>& args);
   static void Pop(const Nan::FunctionCallbackInfo<v8::Value>& args);
   static void Set(const Nan::FunctionCallbackInfo<v8::Value>& args);
+  static void Clear(const Nan::FunctionCallbackInfo<v8::Value>& args);
+  static void Erase(const Nan::FunctionCallbackInfo<v8::Value>& args);
+  static void Insert(const Nan::FunctionCallbackInfo<v8::Value>& args);
   
   static Nan::Persistent<v8::Function> constructor;
 

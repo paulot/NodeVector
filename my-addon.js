@@ -8,3 +8,4 @@ console.log(vector.get());
 console.log(vector.push({}));
 console.log(vector.get(1));
 console.log(vector.size());
+console.log(vector.capacity())
